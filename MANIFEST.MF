@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Cytoscape-API-Compatibility: 3.1
+Cytoscape-App: cddApp
+Cytoscape-App-Name: cddApp
+Cytoscape-App-Version: 1.1.4

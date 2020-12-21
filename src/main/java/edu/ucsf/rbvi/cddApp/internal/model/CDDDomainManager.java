@@ -427,7 +427,6 @@ public class CDDDomainManager implements SetCurrentNetworkListener {
 	                                   final Map<String, CyIdentifiable> reverseMap,
 												          	 final Map<CyIdentifiable, List<CDDHit>> hitMap) {
 		return pool.submit(new Callable<String>() {
-			@Override
 			public String call() throws Exception {
 				try {
 					// monitor.showMessage(TaskMonitor.Level.INFO, "CDD hit query: "+queryString);
@@ -446,7 +445,6 @@ public class CDDDomainManager implements SetCurrentNetworkListener {
 	                                       final Map<String, CyIdentifiable> reverseMap,
 												          	     final Map<CyIdentifiable, List<CDDFeature>> featureMap) {
 		return pool.submit(new Callable<String>() {
-			@Override
 			public String call() throws Exception {
 				try {
 					// monitor.showMessage(TaskMonitor.Level.INFO, "CDD feature query: "+queryString);
